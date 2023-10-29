@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Final/MainMenu.unity
     guid: de3f3fa253dc54e439223f03950360a1
   - enabled: 1
-    path: Assets/Scenes/Final/Level 1.unity
-    guid: 2fe27c452edfe4221bb817f37ed0c13c
+    path: Assets/Scenes/Final/Level0-Rank+Hint.unity
+    guid: ec2cbe0d7deab4b4da28eecf4bd85765
   - enabled: 1
     path: Assets/Scenes/Final/Level 2.unity
     guid: 1094f9e0c79eb4af19e3ac27c31285af
@@ -19,5 +19,8 @@ EditorBuildSettings:
     guid: 9f15071d4e7544d08ab65ba039cb96e0
   - enabled: 1
     path: Assets/Scenes/Final/Level 4.unity
-    guid: dcce127e8027a41a1b511da66727d945
+    guid: e484cb66f8b874db5a30cd8c9a302841
+  - enabled: 1
+    path: Assets/Scenes/Final/Level3_Sarah.unity
+    guid: b2b09cf1aff7744fbb3ab8979bbfb69f
   m_configObjects: {}

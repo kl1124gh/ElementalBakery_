@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 781985aedadb047c9b36186e89390b47, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 64fad79f3dbfb4c09ab17b344ad0aab2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -153,7 +153,10 @@ MonoBehaviour:
   breakableGround:
     serializedVersion: 2
     m_Bits: 128
-  uiObjectToShow: {fileID: 0}
+  plateSprite: {fileID: 21300000, guid: 080ebb42dd6044dd482c014384a10b70, type: 3}
+  collectAnalyticsObject: {fileID: 0}
+  SpriteManager: {fileID: 0}
+  timeToGetIngredient: 0
   tree: {fileID: 3217876077566229026, guid: 9260983d48dcb4cb09752d8dc8ae5d34, type: 3}
   ice: {fileID: 315072361894213870, guid: e533ce217b5dd48c5adfaf4a8cba3bb8, type: 3}
 --- !u!95 &6867408002736625533
