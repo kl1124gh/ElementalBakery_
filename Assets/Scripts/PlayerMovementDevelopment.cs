@@ -61,7 +61,8 @@ public class PlayerMovementDevelopment : MonoBehaviour
     [SerializeField] private float flyTime = 1.0f;
     private float flyStartTime;
     private bool returnToGroundAfterFlying = false;
-    
+    public GameObject nextLevelPanel;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -456,11 +457,12 @@ public class PlayerMovementDevelopment : MonoBehaviour
         {
             if (levelManager.CheckIfLevelComplete())
             {   //float timeToFinish =  Time.time - levelZeroStartTime;  
-                OnLevelCompletion(); 
+                //OnLevelCompletion(); 
                 //Debug.Log("Time to finish level: "+ timeToFinish+ " seconds");  
 
                 //call the game over panel that shows "next level" button for level selection 
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+               // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                nextLevelPanel.SetActive(true);
                 //PlayManagerGame.isGameOver = true;
             }
         }

@@ -7,8 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI timerText;
-    [SerializeField] GameObject timeUpScreen;
+    //[SerializeField] TextMeshProUGUI timerText;
+  //  [SerializeField] GameObject timeUpScreen;
     [SerializeField] bool countdownTimer = false; // Determine if timer is countdown or stopwatch
 
     float elapsedTime, timeUsed;
@@ -31,8 +31,8 @@ public class Timer : MonoBehaviour
         {
             if (elapsedTime <= 0)
             {
-                timerText.text = "Time Up!";
-                timeUpScreen.SetActive(true);
+               // timerText.text = "Time Up!";
+               // timeUpScreen.SetActive(true);
                 timerActive = false;
                 timeUsed = initialTime;
             }
@@ -50,7 +50,7 @@ public class Timer : MonoBehaviour
 
         int minutes = Mathf.FloorToInt(elapsedTime / 60);
         int seconds = Mathf.FloorToInt(elapsedTime % 60);
-        timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+       // timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 
     public void StopTimer()
